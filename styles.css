@@ -1,0 +1,43 @@
+h1 {
+    color: whitesmoke;
+    background-color: navy;
+}
+
+h2 {
+    color: navy;
+    background-color: lightyellow;
+}
+
+h3 {
+    color: green;
+    background-color: lightpink;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.classic {
+    color: orange;
+    background-color: lightcyan;
+    text-decoration: underline;
+}
+
+.classic2 {
+    color:aquamarine;
+    background-color: orangered;
+    text-decoration: overline;
+}
+
+#spanid {
+    color:blueviolet;
+   text-decoration:line-through;
+}
