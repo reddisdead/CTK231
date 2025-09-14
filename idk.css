@@ -1,0 +1,55 @@
+html {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+    background-image: url(cover\ maybe\ Untitled\ Project.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.textcenter2 {
+    text-align: center;
+}
+
+.justice {
+    text-align: justify;
+}
+
+.justice2 {
+    text-align: justify;
+    text-align: center;
+}
+
+h1 {
+    color: orange;
+    font-weight: normal;
+    font-style: italic;
+}
+
+h2 {
+    color: orange;
+    font-weight: normal;
+    font-style: italic;
+}
+
+h3 {
+    color: orange;
+    font-weight: normal;
+    font-style: italic;
+}
+
+h4 {
+    color: orange;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.borders {
+    border: 12px solid black;
+    padding: 10px;
+    margin: 20px;
+    background-color: yellow;
+}
+
