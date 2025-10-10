@@ -1,0 +1,137 @@
+body {
+    background-color: #999999;
+    align-items: center;
+}
+
+#wrapper {
+    background-image: linear-gradient(to bottom, #467eeb, #3368dd, #2252cf, #123cbf, #0323ae);
+    border: 5px solid blue;
+    width: 1200px;
+    padding: 0px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+header { 
+    grid-column: span 12;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    padding: 20px;
+}
+
+header a {
+    color: skyblue;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+header a:hover {
+    color: white;
+}
+
+nav {
+    grid-column: span 12;
+}
+
+nav ul { 
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    width: 297px;
+}
+
+nav li a {
+    display: block;
+    color: skyblue;
+    text-decoration: none;
+    padding: 15px;
+    padding-left: 30px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    background-image: linear-gradient(to bottom, #82aaf8, #6091fa, #4076f8, #2359f4, #1238eb);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav li a:hover {
+    color: white;
+    background-image: linear-gradient(to bottom, #82aaf8, #6091fa, #4076f8, #2359f4, #1238eb);
+}
+
+.floatimg {
+   margin: 10px;
+}
+
+.georgia {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.clearfloat {
+    clear: both;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 3px solid blue;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+main { 
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: white;
+}
+
+.box1 {
+    background-color: white;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding: 10px;
+}
+
+.box2 {
+    background-color: white;
+    padding: 10px;
+}
+
+.box3 {
+    background-color: white;
+    padding: 10px;
+}
+
+.heyhey {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer { 
+    grid-column: span 12;
+    background-color: red;
+    border-right: 5px solid blue;
+    border-bottom: 5px solid blue;
+    border-left: 5px solid blue;
+    width: 1170px;
+    padding: 15px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
