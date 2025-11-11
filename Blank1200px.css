@@ -9,10 +9,11 @@ body {
   grid-template-columns: repeat(12, 1fr);
      background: #b43a46;
     background: linear-gradient(90deg, rgba(180, 58, 70, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    margin: 0 auto;
 }
 
 h1 {
-    font-family: helvetica, sans-serif;
+    font-family: "Monoton", sans-serif;
     font-weight: normal;
     color: lightgray;
     background-color: dodgerblue;
@@ -36,6 +37,7 @@ h1 {
 header {
     grid-column: span 12;
     display: flex;
+    margin-top: 0px;
 }
 
 nav {
@@ -55,21 +57,28 @@ nav li {
 }
 
 nav li a {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-family: "Saira Stencil One", sans-serif;
     color: lightgray;
+    font-size: 12px;
     text-decoration: none;
     text-align: center;
     background-color: dodgerblue;
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-radius: 15px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    transition: all 750ms;
+    margin-left: 30px;
 }
 
 nav li a:hover {
     background-color: skyblue;
     color: white;
-    text-decoration: none;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
     text-align: center;
+    text-decoration: underline;
 }
 
 .live {
@@ -130,6 +139,7 @@ h3 {
   font-size: 24px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: black;
+  padding-bottom: 20px;
 }
 
 .huh {
@@ -143,13 +153,44 @@ h3 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 21px;
   letter-spacing: 3px;
-  color: black;
+  color: white;
   text-align: center;
   text-decoration: underline;
+  margin-top: -100px;
 }
 
 .imgmarg {
   margin-right: 70px;
+}
+
+main a {
+    color: white;
+    font-size: 75px;
+    transition: all 1s;
+}
+
+.spotify a {
+  margin-right: 20px;
+}
+
+.spotify a:hover {
+  color: limegreen;
+}
+
+.apple a {
+  margin-left: 90px;
+}
+
+.apple a:hover {
+  color: #FF4E6B;
+}
+
+.youtube a {
+  margin-left: 105px;
+}
+
+.youtube a:hover {
+  color: red;
 }
 
 .huh2 {
@@ -163,10 +204,38 @@ h3 {
 
 .social {
   float: right;
-  margin-left: 10px;
+  margin-left: 16px;
 }
 
-.solo {
-  background-image: url(images.png);
-  margin-left: 16px;
+.forsolo a {
+   size: 60px;
+   float: left;
+    color: dodgerblue;
+    transition: all 750ms;
+    mask-repeat: none;
+    margin-top: -8px;
+    margin-left: 16px;
+}
+
+.forsolo a:hover {
+  color: white;
+}
+
+.soctext {
+  font-size: large;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-decoration: none;
+  margin-top: 5px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  margin-left: 110px;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.foot {
+  grid-column: span 12;
+  text-align: right;
+  font-family:'Courier New', Courier, monospace;
+  color: black;
 }
