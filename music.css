@@ -1,0 +1,267 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  width: 1200px;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+     background: #b43a46;
+    background: linear-gradient(90deg, rgba(180, 58, 70, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: "Monoton", sans-serif;
+    font-weight: normal;
+    color: lightgray;
+    background-color: dodgerblue;
+    padding: 20px;
+    margin-top: 0px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    grid-column: span 12;
+    text-align: center;
+    letter-spacing: 1em;
+}
+
+.wrapper2 {
+    width: 1180px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+
+header {
+    grid-column: span 12;
+    display: flex;
+    margin-top: 0px;
+}
+
+nav {
+    grid-column: span 12;
+    background-color: dodgerblue;
+    margin-top: -10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    width: 144px;
+    background-color: dodgerblue;
+}
+
+nav li a {
+   font-family: "Saira Stencil One", sans-serif;
+    color: lightgray;
+    font-size: 12px;
+    text-decoration: none;
+    text-align: center;
+    background-color: dodgerblue;
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-radius: 15px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    transition: all 750ms;
+    margin-left: 30px;
+}
+
+nav li a:hover {
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.live {
+  grid-column: span 2;
+  background-color: black;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: -10px;
+}
+
+.live2 {
+  float: right;
+  margin-top: -60px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: white;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  size: 20px;
+}
+
+.shows {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+  color: lightsalmon;
+  border: 1px solid lightcoral;
+  margin-top: 5px;
+  letter-spacing: 5px;
+}
+
+.idkman {
+    float: left;
+    margin-top: -20px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+}
+
+main {
+  grid-column: span 10;
+  flex-grow: 1;
+}
+
+h2 {
+    font-family: "Grenze Gotisch", serif;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 10px;
+    letter-spacing: 5px;
+    font-size: 32px;
+    text-align: center;
+    text-shadow: 3px 3px 3px #000000;
+}
+
+.bandcamp {
+  margin-left: 20px;
+  float: left;
+}
+
+.desc {
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  size: 18px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 24px;
+  font-family: "Honk", system-ui;
+  letter-spacing: 12px;
+  color: black;
+  padding-bottom: 20px;
+}
+
+.huh {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: justify;
+    color: black;
+}
+
+.huh3 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 21px;
+  letter-spacing: 3px;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: -100px;
+}
+
+.imgmarg {
+  margin-right: 70px;
+}
+
+main a {
+    color: white;
+    font-size: 75px;
+    transition: all 1s;
+    margin-left: 70px;
+}
+
+.spotify a {
+  margin-right: 30px;
+  margin-bottom: -30px;
+}
+
+.spotify a:hover {
+  color: limegreen;
+}
+
+.apple a {
+  margin-left: 90px;
+}
+
+.apple a:hover {
+  color: #FF4E6B;
+}
+
+.youtube a {
+  margin-bottom: -30px;
+  margin-left: 115px;
+}
+
+.youtube a:hover {
+  color: red;
+}
+
+.huh2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 16px;
+}
+
+#myCarousel {
+  margin: 10px;
+  float: right;
+  --f-carousel-slide-gap: 40px;
+}
+
+#myCarousel .f-carousel__slide {
+  text-align: center;
+}
+
+.f-carousel__slide {
+  width: 250px;
+  height: 400px;
+}
+
+.forsolo a {
+   size: 60px;
+   float: left;
+    color: dodgerblue;
+    transition: all 750ms;
+    mask-repeat: none;
+    margin-top: -8px;
+    margin-left: 16px;
+}
+
+.forsolo a:hover {
+  color: white;
+}
+
+.soctext {
+  font-size: large;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-decoration: none;
+  margin-top: 5px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  margin-left: 110px;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.foot {
+  grid-column: span 12;
+  text-align: right;
+  font-family:'Courier New', Courier, monospace;
+  color: black;
+  margin-top: 590px;
+}
