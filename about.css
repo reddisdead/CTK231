@@ -55,7 +55,6 @@ nav li {
     display: inline-block;
     width: 144px;
     background-color: dodgerblue;
-    background-size: cover;
 }
 
 nav li a {
@@ -99,10 +98,35 @@ nav li a:hover {
 
 p {
   color: white;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 12px;
-  font-weight: lighter;
-  margin-bottom: 10px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  size: 20px;
+}
+
+.prefloat {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 26px;
+    margin-left: 10px;
+}
+
+.aboutimg {
+    float: left;
+    width: 520px;
+    height: 340px;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+.postfloat {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 26px;
+}
+
+.aboutimg2 {
+    float: right;
+    width: 400px;
+    height: 400px;
 }
 
 .shows {
@@ -128,19 +152,32 @@ main {
 }
 
 h2 {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Grenze Gotisch", serif;
     font-weight: bold;
-    color: black;
+    color: white;
     padding-bottom: 10px;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     font-size: 32px;
     text-align: center;
+    text-shadow: 3px 3px 3px #000000;
+}
+
+.bandcamp {
+  margin-left: 20px;
+  float: left;
+}
+
+.desc {
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  size: 18px;
 }
 
 h3 {
   text-align: center;
-  font-size: 24px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 32px;
+  font-family: "Honk", system-ui;
+  letter-spacing: 10px;
   color: black;
   padding-bottom: 20px;
 }
@@ -150,17 +187,16 @@ h3 {
     font-size: 18px;
     text-align: justify;
     color: black;
-    margin-bottom: 10px;
 }
 
 .huh3 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 21px;
+  font-size: 30px;
   letter-spacing: 3px;
   color: white;
   text-align: center;
   text-decoration: underline;
-  margin-top: -80px;
+  margin-top: -100px;
 }
 
 .imgmarg {
@@ -171,10 +207,12 @@ main a {
     color: white;
     font-size: 75px;
     transition: all 1s;
+    margin-left: 70px;
 }
 
 .spotify a {
-  margin-right: 20px;
+  margin-right: 30px;
+  margin-bottom: -30px;
 }
 
 .spotify a:hover {
@@ -190,10 +228,138 @@ main a {
 }
 
 .youtube a {
-  margin-left: 105px;
+  margin-bottom: -30px;
+  margin-left: 115px;
 }
 
 .youtube a:hover {
+  color: red;
+}
+
+.spotembed {
+  margin: 10px;
+  position: relative;
+  top: 210px;
+  right: 360px;
+}
+
+.h32 {
+  text-align: center;
+  font-size: 32px;
+  font-family: "Honk", system-ui;
+  letter-spacing: 10px;
+  color: black;
+  padding-bottom: 20px;
+  position: relative;
+  left: 200px;
+  bottom: 200px;
+}
+
+.desc2 {
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  size: 18px;
+  position: relative;
+  left: 200px;
+  bottom: 200px;
+}
+
+.spotify2 a {
+  margin-right: 30px;
+  margin-bottom: -30px;
+  position: relative;
+  left: 450px;
+  bottom: 200px;
+}
+
+.spotify2 a:hover {
+  color: limegreen;
+}
+
+.apple2 a {
+  margin-left: 90px;
+  position: relative;
+  left: 388px;
+  bottom: 200px;
+}
+
+.apple2 a:hover {
+  color: #FF4E6B;
+}
+
+.youtube2 a {
+  margin-bottom: -30px;
+  margin-left: 115px;
+  position: relative;
+  left: 336px;
+  bottom: 200px;
+}
+
+.youtube2 a:hover {
+  color: red;
+}
+
+.spotembed2 {
+  margin: 10px;
+  position: relative;
+  bottom: 20px;
+  left: 10px;
+}
+
+.h33 {
+  text-align: center;
+  font-size: 32px;
+  font-family: "Honk", system-ui;
+  letter-spacing: 10px;
+  color: black;
+  padding-bottom: 20px;
+  position: relative;
+  left: 200px;
+  bottom: 420px;
+}
+
+.desc3 {
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  size: 18px;
+  position: relative;
+  left: 200px;
+  bottom: 420px;
+}
+
+
+.spotify3 a {
+  margin-right: 30px;
+  margin-bottom: -30px;
+  position: relative;
+  left: 450px;
+  bottom: 420px;
+}
+
+.spotify3 a:hover {
+  color: limegreen;
+}
+
+.apple3 a {
+  margin-left: 90px;
+  position: relative;
+  left: 388px;
+  bottom: 420px;
+}
+
+.apple3 a:hover {
+  color: #FF4E6B;
+}
+
+.youtube3 a {
+  margin-bottom: -30px;
+  margin-left: 115px;
+  position: relative;
+  left: 336px;
+  bottom: 420px;
+}
+
+.youtube3 a:hover {
   color: red;
 }
 
@@ -204,21 +370,6 @@ main a {
     text-align: justify;
     margin-right: 10px;
     margin-left: 16px;
-}
-
-#myCarousel {
-  margin: 10px;
-  float: right;
-  --f-carousel-slide-gap: 40px;
-}
-
-#myCarousel .f-carousel__slide {
-  text-align: center;
-}
-
-.f-carousel__slide {
-  width: 250px;
-  height: 400px;
 }
 
 .forsolo a {
@@ -252,5 +403,5 @@ main a {
   text-align: right;
   font-family:'Courier New', Courier, monospace;
   color: black;
-  margin-top: 100px;
+  margin-top: 170px;
 }
