@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Birthday Party!</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/carousel/carousel.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.arrows.css"/> 
+  <link rel="stylesheet" href="party.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/carousel/carousel.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.arrows.umd.js"></script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <h1>9/15/2005 - Billboard Hot 100's #1 song</h1>
+      <h2>Kanye West - Gold Digger (ft. Jamie Foxx)</h2>
+ 
+<span class="spotembed"><iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/1PS1QMdUqOal0ai3Gt7sDQ?utm_source=generator" width="100%" height="300" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+  <h3>I'm one of the few who prefers <span class="ital">Late Registration</span> over <span class="ital">Graduation</span> (and <span class="ital">The College Dropout</span>), so it's charming to see the fanfare with this song aliging with the day I started to exist. "Gold Digger" still remains one of Kanye's best-known songs, and it's a smart blend between the instrumentation present all over both his debut and sophomore albums and his more braggadocious, less-humble lyrical content he would highlight with <span class="ital">Graduation.</span> What I find funny is that despite Jamie Foxx's singing of the sample is what most people immediately think of when hearing of this song, "Gold Digger" would only be the second-most iconic sample he would give to hiphop. <span class="ital">"Yo Pierre, you wanna come out here?"</span></h3>
+  
+  <div class="f-carousel" id="myCarousel">
+    <div class="f-carousel__viewport">
+      <div class="f-carousel__slide"><img src="caro1.png" alt="Img1"></div>
+      <div class="f-carousel__slide"><img src="caro2.png" alt="Img2"></div>
+     <div class="f-carousel__slide"><img src="caro3.png" alt="Img3"></div>
+     </div>
+</div>
+  </div>
+<script>
+  Fancybox.bind("[data-fancybox]", {
+  // Your custom options
+  });
+
+  const container = document.getElementById("myCarousel");
+const options = {
+  // Your custom options
+};
+
+Carousel(container, options, { Arrows }).init();
+
+const container2 = document.getElementById("secondCarousel");
+const options2 = {
+  // Your custom options
+};
+
+Carousel(container2, options2, { Arrows }).init();
+
+
+</script>
+</body>
+</html>
