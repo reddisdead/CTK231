@@ -1,0 +1,50 @@
+body {
+    background-image: url(crim1.png);
+    background-repeat: no-repeat;
+    background-position: 75px 100px
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  margin: 10px;
+  background-color: #003300;
+  width: 100px;
+  color: white;
+  transition: background-color 1.0s, width 2.0s, color 2.0s;
+}
+
+nav a:hover {
+  background-color: #00ff00;
+  width: 200px;
+  color: black;
+}    
+
+.crim {
+    position: relative;
+     z-index: 1;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes crim {
+    100% { opacity: 1; right: 400px; bottom: 200px; }
+}
+
+.cell {
+  position: absolute;
+  animation: cell 4s linear;
+}
+
+@keyframes cell {
+  0%   { opacity: .0; right:0; }
+  50%  { opacity: .5; }
+  100% { opacity: 1; right: 825px; }
+}
