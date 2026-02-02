@@ -1,0 +1,8 @@
+#Layer_3 {
+    animation: Layer_3 1.5s linear;
+}
+
+@keyframes Layer_3 {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
