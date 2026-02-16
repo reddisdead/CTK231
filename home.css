@@ -115,11 +115,13 @@ p {
 }
 
 .idkman {
-    float: left;
+    float: left:
     margin-top: -20px;
     margin-right: 16px;
     margin-bottom: 16px;
     margin-left: 16px;
+    width: 300px;
+    height: 300px;
 }
 
 main {
@@ -135,7 +137,6 @@ h2 {
     letter-spacing: 14px;
     font-size: 32px;
     text-align: center;
-    text-shadow: 4px 2px 2px #000;
 }
 
 h3 {
@@ -266,4 +267,24 @@ main a {
   font-family:'Courier New', Courier, monospace;
   color: black;
   margin-top: 100px;
+}
+
+@media all and (min-width: 20rem){
+  h2 { color: yellow; }
+  h3 { color: white; }
+  iframe { width: 70%; }
+}   
+
+@media all and (min-width: 40rem) {
+  h1 { color: black; padding-bottom: 1rem; }
+  h2 { color: white; text-shadow: 4px 2px 2px #000; }
+   .idkman { width: 50%; height: 50%; float: left; }
+   .huh2 { clear: both; grid-template-columns: repeat(2,1fr);
+   body { max-width: 1200px; margin: 0rem auto; }
+}
+
+@media all and (min-width: 60rem) {
+    .spotify a { color: limegreen; }
+    .apple a { color: blue; }
+    .youtube a { color: red; }
 }
