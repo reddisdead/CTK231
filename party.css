@@ -58,5 +58,17 @@ h3 {
   --f-arrow-bg: skyblue;
   --f-arrow-hover-bg: #f9f9f9;
   --f-arrow-active-bg: #f0f0f0;
+
+  margin-top: 300px;
 }
 
+.fade-in-on-scroll {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
